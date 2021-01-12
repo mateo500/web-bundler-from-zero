@@ -1,4 +1,4 @@
-import { logger } from "./test.js";
+import { logger } from "./dependency.js";
 
 const main = () => {
   logger("workinggggg");
