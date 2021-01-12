@@ -27,7 +27,16 @@ this function will take our output folder and create the bundled code inside
 ```
 
 
-then, in the ```bundler.config.js``` file, we will specify our entrypoint and output folder(the ```generateDependencyGraph``` function, will map the 'src' folder as base folder by default), as we can see in the example, we have our example code in the src folder.
+Then, in the ```bundler.config.js``` file, we will specify our entrypoint and output folder(the ```generateDependencyGraph``` function, will map the 'src' folder as base folder by default), as we can see in the example, we have our example code in the src folder.
+
+
+To compile our code and create the bundle, simply run ```npm run compile```.
+
+
+If we execute the file inside our 'dist' folder, we can see our code working just fine:
+![code-img](https://i.ibb.co/DY4zsvh/Screenshot-from-2021-01-12-07-27-45.png)
+
+
 
 ### External tools
 for the AST([abstract-syntax-tree](https://www.npmjs.com/package/abstract-syntax-tree)) we are using an external library to deal with that due to the fact that this is extremely complicated to create from zero.
