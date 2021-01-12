@@ -23,14 +23,14 @@ this function will be in charge to transform our ES6 modules to common-js module
 
 this function will take our output folder and create the bundled code inside
 ```javascript
- emitBundle(output: string, bundleCode: string): string
+ emitBundle(output: string, bundleCode: string): void
 ```
 
 
-then, in the ```bundle.config.js``` file, we will specify our entrypoint and output folder(the ```generateDependencyGraph``` function, will map the 'src' folder as base folder by default), as we can see in the example, we have our example code in the src folder.
+then, in the ```bundler.config.js``` file, we will specify our entrypoint and output folder(the ```generateDependencyGraph``` function, will map the 'src' folder as base folder by default), as we can see in the example, we have our example code in the src folder.
 
 ### External tools
-for the AST([abstract-syntax-tree](https://www.npmjs.com/package/abstract-syntax-tree)) we are using an external library to deal with that due to the fact that this is extremly complicated to create from zero.
+for the AST([abstract-syntax-tree](https://www.npmjs.com/package/abstract-syntax-tree)) we are using an external library to deal with that due to the fact that this is extremely complicated to create from zero.
 
 
 
@@ -42,5 +42,5 @@ for the AST([abstract-syntax-tree](https://www.npmjs.com/package/abstract-syntax
 * Source maps and much more!
 
 
-this example si for demostrative purposes only.
+this example is for demonstrative purposes only.
 
