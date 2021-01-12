@@ -1,6 +1,6 @@
 # web-bundler-from-zero
 
-### Always wanted to know how a web-bundlers like webpack, rollup, parcel works under the hood?, check out this repo!
+### Do you want to know how a web-bundlers like webpack, rollup, parcel works under the hood?, check out this repo!
 
 
 ## How this works?
