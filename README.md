@@ -45,7 +45,7 @@ for the AST([abstract-syntax-tree](https://www.npmjs.com/package/abstract-syntax
 
 ### what are we missing here?
 * Code spliting
-* A complete plugin ecosystem(as you can see in the example, we made a little 'plugin' to transform our ES6 modules to common-js modules)
+* A complete plugin ecosystem(as you can see in the example, we made a little 'plugin' to transform our ES6 modules to common-js modules, but is coupled and not extensible.)
 * Handle assets(styles, images, etc.)
 * Dev server
 * Source maps and much more!
